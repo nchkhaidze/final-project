@@ -1,0 +1,14 @@
+.footer {
+  background-color: lightblue;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer__signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

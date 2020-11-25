@@ -1,0 +1,53 @@
+.pokemon-gallery {
+  width: 80%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  min-height: 80vh;
+
+  &__heading {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__items {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    min-height: 80vh;
+  }
+
+  &__pages {
+    user-select: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__page {
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  &__page_current {
+    background-color: black;
+    color: white;
+    cursor: default;
+  }
+}
+
